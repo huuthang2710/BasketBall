@@ -1,1 +1,145 @@
- 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+#format {
+    display:flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;   
+    height: 100vh;
+    width: 100%;
+    font-family: 'Ubuntu', sans-serif;
+    
+    margin-top: -200px;
+   
+       
+    
+}
+
+body {
+    background-image: url(https://cocoalakedesign.files.wordpress.com/2009/08/karen.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#head {
+    text-transform: uppercase;
+    color: yellowgreen;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: xx-large;
+    font-family: 'Staatliches', cursive;
+}
+
+#questions {
+    color: aqua;
+    border-block-start: darkolivegreen;
+    border-style: double;
+    border-color: yellowgreen;
+    border-width: 10px;
+    padding: 50px;
+}
+
+#subhead {
+    font-size:x-large;
+    color: gold;
+}
+
+#judge {
+    color: blanchedalmond;
+    font-size: x-large;
+    display: block;
+    margin-top: 200px
+    
+}
+
+.answerbox {
+    font-size: x-large;
+    font-family: 'Fjalla One', sans-serif;
+    /* border: 2px solid greenyellow;
+    border-width: 100px;
+    border-:  */
+    
+}
+
+#question {
+    font-size: larger;
+    
+    
+}
+
+.btn {
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: 2px solid black;
+    background-color: aquamarine;
+    font-size: 18px;
+    padding: 5px 20px;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+}
+
+.btn:hover {
+    background-color: greenyellow;
+    color: aliceblue;
+}
+
+img {
+    border-image: url(https://static.independent.co.uk/s3fs-public/thumbnails/image/2017/07/11/11/harold-0.jpg);
+    width: 600px;
+    height: 450px;
+    display: flex;
+    margin: auto;
+    border-top: 2px dashed greenyellow;
+}
+
+
+
+#content {
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+#end {
+    color: aqua;
+    size: 14px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 20px;
+    
+}
+
+#brain {
+    width: 250px;
+    height: 250px;
+    display: flex;
+    margin: auto;
+}
+
+.btn2 {
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: 2px solid black;
+    background-color: royalblue;
+    font-size: 18px;
+    padding: 5px 20px;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+}
+
+.btn2:hover {
+    background-color: plum;
+    color: aliceblue;
+}
