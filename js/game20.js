@@ -8,6 +8,7 @@ var game = function(){
 	this.bowl           = null;
 	this.resourceLoaded = false; // cái này kiểm tra tất cả ảnh đã tải xong chưa
 	this.score          = 0;
+	// this.time			=60;
 
 	var self = this;
 
@@ -45,6 +46,15 @@ var game = function(){
 
 	}
 
+	// this.time = function(){
+	// 	for (var i =0 ; i<60;i++){
+	// 		this.i+=this.i;
+	// 		if (this.i==20){
+	// 			break;
+	// 	}	
+	// 	}
+	// }
+
 	this.start = function(){
 		this.loop();
 	}
@@ -67,7 +77,7 @@ var game = function(){
 
 	this.draw = function(){
 		// vẽ cái hình nền trời xanh
-		self.context.fillStyle = "#3e738e"; // cái màu lấy từ photoshop đấy
+		self.context.fillStyle = "#79CDCD"; // cái màu lấy từ photoshop đấy
 		self.context.fillRect(0, 0, this.canvas.width, this.canvas.height);
 
 		if (self.resourceLoaded == false){
@@ -93,6 +103,7 @@ var game = function(){
 		self.bowl.draw();
 		self.drawAllEggs();
 		self.drawAllChickens();
+		// self.drawtime();
 	}
 
 	this.drawAllEggs = function(){
@@ -121,6 +132,13 @@ var game = function(){
 		self.context.fillStyle = '#ffffff';
 		self.context.font = '30px Arial';
 		self.context.fillText('Score: ' + this.score, 580, 200);
+	}
+
+	// vẽ TG
+	this.drawtime = function(){
+		self.context.fillStyle = '#ffffff';
+		self.context.font = '30px Arial';
+		self.context.fillText('Time: ' + this.time, 1000, 200);
 	}
 
 }

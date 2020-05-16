@@ -9,8 +9,20 @@
 }
 
 #image {
-    width: 600px;
+    width: 500px;
     height: 250px;
+}
+#brtg{
+    line-height: 19px;
+}
+#brvn{
+    line-height: 19px;
+}
+#video2{
+    line-height: 27px;
+}
+#video3{
+    line-height: 27px;
 }
 
 
@@ -463,3 +475,5 @@ ul {
     overflow: hidden;
     background-color: #333;
 }
+
+

@@ -129,6 +129,11 @@ video3basketball.addEventListener("click", function() {
 
 
 
+
+
+
+
+
 // Phần về làm GAMEEEEEEEEEEEEEEEEEEEEEEE
 
 
@@ -382,9 +387,7 @@ function loop() {
                 <div id='judge'>${final}</div>
                 <div id="end">
                     <a href="./index.html">
-                        <button class='btn2'>
-                            Reset Quiz
-                        </button>
+                        
                     </a>
                 </div>
             </div>
